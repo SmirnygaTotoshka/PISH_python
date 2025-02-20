@@ -19,7 +19,7 @@ book:
     - PISH8.ipynb
     - PISH9.ipynb
     - PISH10.ipynb
-    - PISH11.ipynb
+    - PISH11.qmd
     - PISH12.ipynb
     - PISH13.ipynb
     - PISH14.ipynb
@@ -32,8 +32,6 @@ csl: gost-num-appear.csl
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
 
 editor: visual
 
