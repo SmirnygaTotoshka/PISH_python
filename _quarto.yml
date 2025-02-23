@@ -2,22 +2,36 @@ project:
   type: book
 
 book:
-  title: "pp_pish_bioinf"
-  author: "Norah Jones"
-  date: "2/15/2025"
+  title: "Введение в программирование на языке Python"
+  author: "Антон С. Смирнов"
+  date: today
+  date-format: long
   chapters:
     - index.qmd
     - intro.qmd
+    - PISH1.qmd
+    - PISH2.qmd
+    - PISH3.qmd
+    - PISH4.ipynb
+    - PISH5.ipynb
+    - PISH6.ipynb
+    - PISH7.ipynb
+    - PISH8.ipynb
+    - PISH9.ipynb
+    - PISH10.ipynb
+    - PISH11.qmd
+    - PISH12.ipynb
+    - PISH13.ipynb
+    - PISH14.ipynb
+    - PISH15.ipynb
     - summary.qmd
     - references.qmd
 
 bibliography: references.bib
-
+csl: gost-num-appear.csl
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
 
 editor: visual
 
