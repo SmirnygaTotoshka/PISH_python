@@ -13,7 +13,7 @@ book:
     - PISH2.qmd
     - PISH3.qmd
     - PISH4.qmd
-    - PISH5.ipynb
+    - PISH5.qmd
     - PISH6.ipynb
     - PISH7.ipynb
     - PISH8.ipynb
@@ -21,7 +21,7 @@ book:
     - PISH10.qmd
     - PISH11.qmd
     - PISH12.ipynb
-    - PISH13.ipynb
+    - PISH13.qmd
     - PISH14.ipynb
     - PISH15.ipynb
     - summary.qmd
