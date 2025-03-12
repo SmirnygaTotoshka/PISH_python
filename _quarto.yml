@@ -15,15 +15,15 @@ book:
     - PISH4.qmd
     - PISH5.qmd
     - PISH6.qmd
-    - PISH7.ipynb
-    - PISH8.ipynb
-    - PISH9.ipynb
+    - PISH7.qmd
+    - PISH8.qmd
+    - PISH9.qmd
     - PISH10.qmd
     - PISH11.qmd
-    - PISH12.ipynb
+    - PISH12.qmd
     - PISH13.qmd
-    - PISH14.ipynb
-    - PISH15.ipynb
+    - PISH14.qmd
+    - PISH15.qmd
     - summary.qmd
     - references.qmd
 
