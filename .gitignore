@@ -5,3 +5,5 @@ token
 *quarto_ipynb
 _publish.yml
 _book/*
+data/titanic.xlsx
+images/example.png
