@@ -16,7 +16,7 @@ pip install matplotlib
 
 Чтобы проверить корректность установки, выполните следующий код.
 
-``` python
+```{python}
 import matplotlib
 print(matplotlib.__version__)
 ```
@@ -121,7 +121,7 @@ plt.show()
 import matplotlib.pyplot as plt # <1>
 import pandas as pd
 
-elisa_data = pd.read_excel(r"data/results_xmap_and_vector.xlsx")
+elisa_data = pd.read_excel(r"data/results_xmap_and_vector.xlsx", engine = "openpyxl")
 
 death = elisa_data.loc[elisa_data["Outcome"] == "смерть", :] # <1>
 severe = elisa_data.loc[elisa_data["Outcome"] == "тяжелый", :]

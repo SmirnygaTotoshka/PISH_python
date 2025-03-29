@@ -30,6 +30,7 @@ pip install pandas
 
 ```{python}
 import pandas as pd
+print(pd.__version__)
 ```
 
 ::: callout-note
