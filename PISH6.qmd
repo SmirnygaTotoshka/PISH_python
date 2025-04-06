@@ -114,7 +114,7 @@ for k,v in example_dict.items(): # <7>
 
 ![Визуализация операций над множествами с помощью кругов Эйлера](images/6_sets.PNG){#fig-sets}
 
-``` {#lst-sets .python}
+``` {#lst-sets .python lst-cap="Реализация основных операций над множествами в Python"}
 set_a = {5,3,6,123,657,12,4} # <1>
 set_b = {5,3,6,10,60,18,4} # <1>
 6 in set_a # <2>
