@@ -2,7 +2,7 @@
 jupyter: python3
 ---
 
-# Summary {.unnumbered}
+# Заключение {.unnumbered}
 
 In summary, this book has no content whatsoever.
 

@@ -1,0 +1,10 @@
+flowchart TB
+    begin(["Начало"]) --> input[/Входный список input_list/]
+    input --> first["min_element = input_list[0]"]
+    first --> cycle{{"Для каждого i в input_list"}}
+    cycle --> condition{"i < min_element"}
+    condition -->|"Да"| yes["min_element = i"]
+    yes --> cycle
+    condition -->|"Нет"| cycle
+    cycle --> return[\"Вернуть min_element"\]
+    return --> finish(["Конец"])

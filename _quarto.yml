@@ -3,9 +3,28 @@ project:
 
 book:
   title: "Введение в программирование на языке Python"
-  author: "Антон С. Смирнов"
+  page-footer:
+    left: |
+      Введение в программирование на языке Python
+      Антон С.Смирнов.
+    right: |
+      Книга написана с помощью <a href="https://quarto.org/">Quarto</a>
+  author: 
+    name: "Антон С. Смирнов"
+    orcid: "0000-0002-7510-1602"
+    corresponding: true
+    email: "smirnov_as@rsmu.ru"
+    affiliations:
+      - "Пироговский университет"
+      - "МГНЦ им. Н.П. Бочкова"
   date: today
   date-format: long
+  page-navigation: true
+  repo-url: https://gitlab.aldan3.itm-rsmu.ru/asmirnov/pp_bioinf_pish/
+  repo-branch: main
+  repo-actions: [issue]
+  downloads: [pdf]
+  search: true
   chapters:
     - index.qmd
     - intro.qmd
@@ -27,11 +46,35 @@ book:
     - summary.qmd
     - references.qmd
 
+toc: true
+toc-depth: 3
+toc-title: "Оглавление"
+fontsize: 14pt
+linestretch: 1.5
+geometry:
+  - top=10mm
+  - left=20mm
+  - right=20mm
+  - heightrounded
 bibliography: references.bib
 csl: gost-num-appear.csl
 format:
   html:
     theme: cosmo
+    grid:
+      sidebar-width: 350px
+  pdf:
+    documentclass: book
+    pdf-engine: xelatex
+    header-includes: |
+      \usepackage[utf8]{inputenc}
+      \usepackage[american,russian]{babel}
+      \usepackage{hyperref}  
+      \usepackage{unicode-math}
+
+mainfont: Times New Roman
+monofont: Times New Roman
+sansfont: Times New Roman
 
 editor: visual
 
