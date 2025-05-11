@@ -28,21 +28,21 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - chapters/PISH1.qmd
-    - chapters/PISH2.qmd
-    - chapters/PISH3.qmd
-    - chapters/PISH4.qmd
-    - chapters/PISH5.qmd
-    - chapters/PISH6.qmd
-    - chapters/PISH7.qmd
-    - chapters/PISH8.qmd
-    - chapters/PISH9.qmd
-    - chapters/PISH10.qmd
-    - chapters/PISH11.qmd
-    - chapters/PISH12.qmd
-    - chapters/PISH13.qmd
-    - chapters/PISH14.qmd
-    - chapters/PISH15.qmd
+    - PISH1.qmd
+    - PISH2.qmd
+    - PISH3.qmd
+    - PISH4.qmd
+    - PISH5.qmd
+    - PISH6.qmd
+    - PISH7.qmd
+    - PISH8.qmd
+    - PISH9.qmd
+    - PISH10.qmd
+    - PISH11.qmd
+    - PISH12.qmd
+    - PISH13.qmd
+    - PISH14.qmd
+    - PISH15.qmd
     - summary.qmd
     - references.qmd
 
